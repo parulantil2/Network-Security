@@ -25,7 +25,7 @@ from networksecurity.entity.artifact_entity import (
 )
 
 # from networksecurity.constant.training_pipeline import TRAINING_BUCKET_NAME
-#  from networksecurity.cloud.s3_syncer import S3Sync
+# from networksecurity.cloud.s3_syncer import S3Sync
 # from networksecurity.constant.training_pipeline import SAVED_MODEL_DIR
 
 
@@ -95,7 +95,7 @@ class TrainingPipeline:
     #     except Exception as e:
     #         raise NetworkSecurityException(e,sys)
         
-    # ## local final model is going to s3 bucket 
+    # # ## local final model is going to s3 bucket 
         
     # def sync_saved_model_dir_to_s3(self):
     #     try:
