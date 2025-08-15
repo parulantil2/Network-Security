@@ -24,7 +24,7 @@ from sklearn.ensemble import (
     RandomForestClassifier,
 )
 import mlflow
-# from urllib.parse import urlparse
+from urllib.parse import urlparse
 
 import dagshub
 # dagshub.init(repo_owner='antilparul06', repo_name='Network-Security', mlflow=True)
