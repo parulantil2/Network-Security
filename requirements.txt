@@ -13,5 +13,6 @@ uvicorn
 python-multipart
 setuptools
 dill
+streamlit
 
 # -e .
